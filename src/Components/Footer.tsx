@@ -7,7 +7,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="flex text-sm gap-3 justify-between m-auto w-10/12 h-10 border-t-2 ">
+    <div className="flex text-sm gap-3 justify-between m-auto w-10/12 h-10 border-t-2 border-gray-500 ">
       <div className="ml-5">
         @2021 Sumu Resin Art
         {/* | All Rights Reserved Privacy Policy | Terms of Use */}
