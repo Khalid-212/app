@@ -10,6 +10,7 @@ import CarouselComponent from "@/Components/CarouselComponent";
 import PropertyCard from "@/Components/PropertyCard";
 import TestimonialsCard from "@/Components/TestimonialsCard";
 import Footer from "@/Components/Footer";
+import blank from "../../public/assets/blank.png";
 
 export default function Home() {
   return (
@@ -129,12 +130,11 @@ export default function Home() {
               With its unique patterns and Vibrant colors, epoxy resin art adds
               a touch of elegance and sophestication to any space.
             </p>
-            <br />
             <div className="properties flex w-5/6 justify-between">
               <PropertyCard
                 lm={false}
                 title={"Unmatched Quality"}
-                pic={null}
+                pic={blank}
                 text={
                   "Experience the beauty and craftsmanship of our epoxy resin art collection"
                 }
@@ -142,7 +142,7 @@ export default function Home() {
               <PropertyCard
                 lm={false}
                 title={"Exquisite Designs"}
-                pic={null}
+                pic={blank}
                 text={
                   "Experience the beauty and craftsmanship of our epoxy resin art collection"
                 }
