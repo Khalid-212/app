@@ -1,7 +1,14 @@
 import Image from 'next/image';
 import React from 'react'
 
-function PropertyCard({ pic, text, title,lm }) {
+interface PropertyCardProps {
+  pic: string;
+  text: string;
+  title: string;
+  lm: boolean;
+}
+
+function PropertyCard({ pic, text, title, lm }: PropertyCardProps) {
   return (
     <div>
       <div className="property m-3 w-45 text-sm">
