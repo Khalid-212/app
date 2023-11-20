@@ -4,8 +4,8 @@ import star from "../../public/assets/star-black.png";
 
 function TestimonialsCard() {
   return (
-    <div className="m-5 w-96">
-      <div className="start flex">
+    <div className="m-5 md:w-96">
+      <div className="star flex">
         {[1, 2, 3, 4, 5].map((item, index) => (
           <Image
             src={star}
@@ -16,7 +16,7 @@ function TestimonialsCard() {
           />
         ))}
       </div>
-        <br />
+      <br />
       <p className='font-bold'>
         The epoxy resin art is simply amazing! I love how it adds a unique touch
         to my home decor{" "}
@@ -24,7 +24,7 @@ function TestimonialsCard() {
       <div className="user flex gap-2 items-center">
         <div className="user-image rounded-full w-10 bg-slate-300 h-10"></div>
         <div className="user-info">
-          <h3>John Doe</h3>
+          <h3 className="text-sm md:text-base">John Doe</h3>
           <h4>CEO of Company</h4>
         </div>
       </div>

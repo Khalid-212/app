@@ -7,25 +7,33 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="flex text-sm gap-3 justify-between m-auto w-10/12 h-10 border-t-2 border-gray-500 ">
-      <div className="ml-5">
-        @2021 Sumu Resin Art
-        {/* | All Rights Reserved Privacy Policy | Terms of Use */}
-        {/* | Accessibility */}
+    <div>
+      <div className="flex items-center mt-20 text-sm gap-3 justify-between mx-4 h-10 border-t-2 border-gray-500">
+        <div className="ml-5">
+          @2021 Sumu Resin Art
+          {/* | All Rights Reserved Privacy Policy | Terms of Use */}
+          {/* | Accessibility */}
+        </div>
+        <div className="flex gap-5">
+          <div>
+            <Image src={facebook} alt="Facebook" width={25} height={25} />
+          </div>
+          <div>
+            <Image src={instagram} alt="Instagram" width={25} height={25} />
+          </div>
+          <div>
+            <Image src={telegram} alt="Telegram" width={25} height={25} />
+          </div>
+          <div>
+            <Image src={tiktok} alt="TikTok" width={25} height={25} />
+          </div>
+        </div>
       </div>
-      <div className="flex cursor-pointer  gap-5">
-        <div className="">
-          <Image src={facebook} alt="fb" width={25} height={25} />
-        </div>
-        <div className="">
-          <Image src={instagram} alt="" width={25} height={25} />
-        </div>
-        <div className="">
-          <Image src={telegram} alt="" width={25} height={25} />
-        </div>
-        <div className="">
-          <Image src={tiktok} alt="" width={25} height={25} />
-        </div>
+      <div className="bg-black text-white text-center py-2">
+        Developed by{" "}
+        <a className="text-blue-600" href="https://khalidibrahim.co/">
+          Khalid Ibrahim
+        </a>
       </div>
     </div>
   );
