@@ -16,5 +16,8 @@ const config: Config = {
     },
   },
   plugins: [],
+  purge: ['./src/**/*.{js,ts,jsx,tsx}'], 
+  optimizeCss: false, 
+  enableBabelRuntime: true, 
 }
 export default config
