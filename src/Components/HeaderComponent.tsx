@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import logo from "../../public/assets/logo.png";
+import hbgmenu from "../../public/assets/hbg-menu.png";
 import Link from "next/link";
 
 function HeaderComponent() {
@@ -15,22 +16,24 @@ function HeaderComponent() {
   return (
     <div>
       <div className="flex flex-col md:flex-row justify-between items-center mx-4 my-2">
-        <div className="headerLeft mb-4 md:mb-0">
+        <div className="headerLeft align-middle w-screen mb-2 md:mb-0">
           <div className="logo">
             <Image src={logo} alt="logo" width={100} height={100} />
+          </div>
+          <div className="cursor-pointer md:hidden" onClick={toggleNav}>
+            <div className={`hamburger-bar ${isNavOpen ? "open" : ""}`}></div>
+            <div className={`hamburger-bar ${isNavOpen ? "open" : ""}`}></div>
+            <div className={`hamburger-bar ${isNavOpen ? "open" : ""}`}>
+              <Image src={hbgmenu} alt="logo" width={30} height={30} />
+            </div>
           </div>
         </div>
         <div className="font-bold text-lg flex flex-col md:flex-row gap-4 items-center">
           {/* Hamburger menu icon */}
-          <div className="cursor-pointer md:hidden" onClick={toggleNav}>
-            <div className={`hamburger-bar ${isNavOpen ? "open" : ""}`}></div>
-            <div className={`hamburger-bar ${isNavOpen ? "open" : ""}`}></div>
-            <div className={`hamburger-bar ${isNavOpen ? "open" : ""}`}></div>
-          </div>
 
           {/* Navigation links */}
           <div
-            className={`md:flex flex-col md:flex-row md:gap-4 items-center ${
+            className={`navs md:flex flex-col md:flex-row md:gap-4 items-center ${
               isNavOpen ? "block" : "hidden"
             }`}
           >

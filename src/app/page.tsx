@@ -11,6 +11,7 @@ import id from "../../public/assets/id.png";
 import c8 from "../../public/assets/c8.jpg";
 import badge from "../../public/assets/badge.png";
 import art from "../../public/assets/arts.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -51,17 +52,19 @@ export default function Home() {
             />
           </div>
           <div className="buttons flex flex-col md:flex-row gap-2 md:gap-10 mt-4">
-            <button className="btn text-black font-bold border-black border-2 p-2 md:p-3 w-full md:w-32">
+            <button className="btn text-black font-bold border-black border-2 p-2 lg:w-40 md:p-3 w-full md:w-32">
               Order now
             </button>
+            <Link href="/gallery">
             <button className="btn text-black font-bold p-2 md:p-3 w-full md:w-35 mt-2 md:mt-0">
               Explore more &gt;
             </button>
+            </Link>
           </div>
         </section>
       </div>
 
-      <div className="slider mx-4 mt-4 md:w-3/12 md:h-1/5">
+      <div className="slider mx-4 mt-4 w-11/12 md:w-3/12 md:h-1/5">
         <CarouselComponent />
       </div>
 
@@ -134,12 +137,14 @@ export default function Home() {
             />
           </div>
           <div className="buttons flex flex-col md:flex-row gap-2 md:gap-10 mt-4">
-            <button className="btn text-black font-bold border-black border-2 p-2 md:p-3 w-full md:w-32">
+            <button className="btn text-black font-bold border-black border-2 p-2 lg:w-40 md:p-3 w-full md:w-32">
               Order now
             </button>
+            <Link href="/gallery">
             <button className="btn text-black font-bold p-2 md:p-3 w-full md:w-35 mt-2 md:mt-0">
               Explore more &gt;
             </button>
+            </Link>
           </div>
         </section>
 

@@ -13,8 +13,8 @@ const Courses: React.FC = () => {
           Choose from our selection of courses to enhance your skills.
         </p>
       </section>
-      <section className="flex justify-between w-10/12 m-auto mt-10">
-        <div className="w-5/12">
+      <section className="courseCards flex justify-between w-10/12 m-auto mt-10">
+        <div className="Coursecard w-5/12">
           <div className="course-card mb-6 p-6 border rounded-md">
             <div className="font-bold text-2xl mb-2">Beginner Course</div>
             <p>

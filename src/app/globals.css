@@ -19,7 +19,6 @@
   padding: 80px 0px 0px 80px;
 }
 .slider{
-  width: 80vw;
   margin: auto;
 }
 .imageGrid{
@@ -56,8 +55,41 @@
   justify-content: center;
   align-items: center;
 }
-@media screen and (max-width:250){
+@media only screen and (max-width:600px){
   .contactForm{
   flex-direction: column;
 }
+.heading>h1 {
+  font-size: 40px;
+  color: white;
+  padding: 80px 0px 0px 10px;
+  line-height: 1.2;
+}
+.headerLeft{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.courseCards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Coursecard{
+  width: 100%;
+}
+
+}
+
+@media only screen and (min-width:992px){
+  .slider{
+      width: 80vw !important;
+  }
+  .navs{
+    width: 50vw !important;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+  }
 }

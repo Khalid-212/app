@@ -18,9 +18,9 @@ const Contact = () => {
           contact us directly.
         </p>
       </section>
-      <section className="flex justify-between w-10/12 m-auto mt-10">
+      <section className="contactPage flex justify-between w-10/12 m-auto mt-10">
         <div className="w-6/12">
-          <form className="mt-4">
+          <form className="contactForm mt-4">
             <label className="block text-sm font-medium text-gray-700">
               Your Name
             </label>
