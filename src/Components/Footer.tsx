@@ -4,6 +4,7 @@ import instagram from "../../public/assets/ig.png";
 import telegram from "../../public/assets/tg.png";
 import tiktok from "../../public/assets/tiktok.png";
 import Image from "next/image";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -16,16 +17,24 @@ function Footer() {
         </div>
         <div className="flex gap-5">
           <div>
-            <Image src={facebook} alt="Facebook" width={25} height={25} />
+            <Link href="https://www.facebook.com/profile.php?id=100063553705019">
+              <Image src={facebook} alt="Facebook" width={25} height={25} />
+            </Link>
           </div>
           <div>
-            <Image src={instagram} alt="Instagram" width={25} height={25} />
+            <Link href="https://www.instagram.com/sumu_resin_art_/">
+              <Image src={instagram} alt="Instagram" width={25} height={25} />
+            </Link>
           </div>
           <div>
-            <Image src={telegram} alt="Telegram" width={25} height={25} />
+            <Link href="https://t.me/sumuartswerk">
+              <Image src={telegram} alt="Telegram" width={25} height={25} />
+            </Link>
           </div>
           <div>
-            <Image src={tiktok} alt="TikTok" width={25} height={25} />
+            <Link href="https://www.tiktok.com/@sumuresinart88?is_from_webapp=1&sender_device=pc">
+              <Image src={tiktok} alt="TikTok" width={25} height={25} />
+            </Link>
           </div>
         </div>
       </div>
