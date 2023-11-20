@@ -56,9 +56,23 @@
   align-items: center;
 }
 @media only screen and (max-width:600px){
+  .contactPage{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
   .contactForm{
-  flex-direction: column;
-}
+    width: 80%;
+    margin: 0px;
+  }
+  .contactInformation{
+    width: 70%;
+    margin-top: 40px;
+    margin: auto;
+  }
 .heading>h1 {
   font-size: 40px;
   color: white;

@@ -18,9 +18,9 @@ const Contact = () => {
           contact us directly.
         </p>
       </section>
-      <section className="contactPage flex justify-between w-10/12 m-auto mt-10">
-        <div className="w-6/12">
-          <form className="contactForm mt-4">
+      <section className="contactPage flex justify-between w-10/12 m-auto lg:mt-10">
+        <div className="contactForm w-6/12">
+          <form className=" lg:mt-4">
             <label className="block text-sm font-medium text-gray-700">
               Your Name
             </label>
@@ -50,8 +50,8 @@ const Contact = () => {
             </button>
           </form>
         </div>
-        <div className="w-5/12 ml-8">
-          <div className="font-bold text-2xl ">Contact Information</div>
+        <div className="contactInformation w-5/12 lg:ml-8">
+          <div className="font-bold text-2xl sm:mt-40">Contact Information</div>
           <div className="flex items-center font-bold ml-10 mb-2">
             {/* <Image src={tiktok} alt="" width={25} height={25} /> */}
             <p>Sumu Resin Art </p>
