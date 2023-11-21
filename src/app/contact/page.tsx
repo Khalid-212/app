@@ -62,7 +62,7 @@ const Contact = () => {
           </div>
           <div className="flex items-center mb-2">
             <Image className="mr-5" src={phone} alt="" width={25} height={25} />
-            <p>+251 956-21-7890</p>
+            <p>+251 912-62-0347</p>
           </div>
           <div className="flex items-center mb-2">
             {/* <img src={location} alt="Phone" className="w-6 h-6 mr-2" /> */}

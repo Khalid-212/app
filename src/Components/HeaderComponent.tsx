@@ -17,9 +17,11 @@ function HeaderComponent() {
     <div>
       <div className="flex flex-col md:flex-row justify-between items-center mx-4 my-2">
         <div className="headerLeft align-middle w-screen mb-2 md:mb-0">
+            <Link href="/">
           <div className="logo">
             <Image src={logo} alt="logo" width={100} height={100} />
           </div>
+          </Link>
           <div className="cursor-pointer md:hidden" onClick={toggleNav}>
             <div className={`hamburger-bar ${isNavOpen ? "open" : ""}`}></div>
             <div className={`hamburger-bar ${isNavOpen ? "open" : ""}`}></div>

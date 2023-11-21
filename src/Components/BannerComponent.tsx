@@ -27,9 +27,11 @@ function BannerComponent() {
             Explore
           </button>
           </Link>
+            <Link href="/contact">
           <button className="btn bg-black text-white p-2 md:p-3 w-full md:w-32">
             Order now
           </button>
+          </Link>
         </div>
       </div>
     </div>
