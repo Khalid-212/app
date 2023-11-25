@@ -13,6 +13,7 @@ import badge from "../../public/assets/badge.png";
 import art from "../../public/assets/arts.png";
 import Link from "next/link";
 
+
 export default function Home() {
   return (
     <div>
@@ -34,14 +35,14 @@ export default function Home() {
             elegance to any space.
           </p>
           <div className="properties flex flex-col md:flex-row w-full md:w-5/6 justify-between mt-4">
-            <PropertyCard
-              lm={false}
-              title={"Unmatched Quality"}
-              pic={badge}
-              text={
-                "Experience the beauty and craftsmanship of our epoxy resin art collection"
-              }
-            />
+              <PropertyCard
+                lm={false}
+                title={"Unmatched Quality"}
+                pic={badge}
+                text={
+                  "Experience the beauty and craftsmanship of our epoxy resin art collection"
+                }
+              />
             <PropertyCard
               lm={false}
               title={"Exquisite Designs"}
@@ -53,14 +54,14 @@ export default function Home() {
           </div>
           <div className="buttons flex flex-col md:flex-row gap-2 md:gap-10 mt-4">
             <Link href="/contact">
-            <button className="btn text-black font-bold border-black border-2 p-2 lg:w-40 md:p-3 w-full md:w-32">
-              Order now
-            </button>
+              <button className="btn text-black font-bold border-black border-2 p-2 lg:w-40 md:p-3 w-full md:w-32">
+                Order now
+              </button>
             </Link>
             <Link href="/gallery">
-            <button className="btn text-black font-bold p-2 md:p-3 w-full md:w-35 mt-2 md:mt-0">
-              Explore more &gt;
-            </button>
+              <button className="btn text-black font-bold p-2 md:p-3 w-full md:w-35 mt-2 md:mt-0">
+                Explore more &gt;
+              </button>
             </Link>
           </div>
         </section>
@@ -140,14 +141,14 @@ export default function Home() {
           </div>
           <div className="buttons flex flex-col md:flex-row gap-2 md:gap-10 mt-4">
             <Link href="/contact">
-            <button className="btn text-black font-bold border-black border-2 p-2 lg:w-40 md:p-3 w-full md:w-32">
-              Order now
-            </button>
-              </Link>
+              <button className="btn text-black font-bold border-black border-2 p-2 lg:w-40 md:p-3 w-full md:w-32">
+                Order now
+              </button>
+            </Link>
             <Link href="/gallery">
-            <button className="btn text-black font-bold p-2 md:p-3 w-full md:w-35 mt-2 md:mt-0">
-              Explore more &gt;
-            </button>
+              <button className="btn text-black font-bold p-2 md:p-3 w-full md:w-35 mt-2 md:mt-0">
+                Explore more &gt;
+              </button>
             </Link>
           </div>
         </section>

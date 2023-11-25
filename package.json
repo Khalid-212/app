@@ -14,11 +14,12 @@
     "next-gallery": "^1.2.1",
     "nuka-carousel": "^7.0.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-reveal": "^1.2.2"
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/react": "18.2.37",
+    "@types/react": "^18.2.37",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",

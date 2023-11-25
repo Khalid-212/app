@@ -1,6 +1,8 @@
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import React from "react";
+// import {Fade} from "react-reveal/Fade";
+
 
 interface PropertyCardProps {
   pic: StaticImageData;
@@ -12,6 +14,7 @@ interface PropertyCardProps {
 function PropertyCard({ pic, text, title, lm }: PropertyCardProps) {
   return (
     <div>
+              {/* <Fade right> */}
       <div className="property m-3 w-45 text-sm">
         {pic ? (
           <Image src={pic} alt="sectionLeft" width={50} height={50} />
@@ -30,6 +33,7 @@ function PropertyCard({ pic, text, title, lm }: PropertyCardProps) {
           </Link>
         )}
       </div>
+      {/* </Fade> */}
     </div>
   );
 }

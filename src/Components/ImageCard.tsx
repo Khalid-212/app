@@ -1,5 +1,7 @@
 import Image, { StaticImageData } from 'next/image';
 import React, { useState } from 'react';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 interface ImageCardProps {
   pic: StaticImageData;
@@ -17,6 +19,9 @@ const ImageCard: React.FC<ImageCardProps> = ({ pic }) => {
   };
 
   return (
+    <>
+    <Fade bottom>
+    <Zoom>
     <div className="imageCard relative">
       <Image
         onClick={openModal}
@@ -27,6 +32,9 @@ const ImageCard: React.FC<ImageCardProps> = ({ pic }) => {
         height={500}
       />
     </div>
+    </Zoom>
+    </Fade>
+    </>
   );
 };
 

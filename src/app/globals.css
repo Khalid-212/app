@@ -10,7 +10,7 @@
   height: 90vh!important;
 }
 .logo{
-  filter: brightness(0) invert(0);
+  /* filter: brightness(0) invert(0); */
 }
 
 .heading>h1{
@@ -57,10 +57,12 @@
 }
 @media only screen and (max-width:600px){
   .contactPage{
-    flex-direction: column;
+    flex-direction: column-reverse;
+    gap: 2rem;
     width: 100%;
     align-items: center;
     justify-content: center;
+    border: 1px solid black;
     padding: 0px;
     margin-bottom: 20px;
   }
