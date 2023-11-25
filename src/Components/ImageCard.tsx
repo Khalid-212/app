@@ -27,7 +27,8 @@ const ImageCard: React.FC<ImageCardProps> = ({ pic }) => {
         onClick={openModal}
         src={pic}
         alt="1"
-        className="image-comp filter grayscale hover:grayscale-0 cursor-pointer"
+        // className="image-comp filter grayscale hover:grayscale-0 cursor-pointer"
+        className="image-comp cursor-pointer"
         width={500}
         height={500}
       />
