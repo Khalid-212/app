@@ -12,7 +12,7 @@ import c3 from "../../public/assets/c3.jpeg"
 
 function CarouselComponent() {
   return (
-    <div>
+    <div className="">
       <Carousel autoplay wrapAround>
         <Image alt="image 1" src={c3} />
         <Image alt="image 2" src={c4} />

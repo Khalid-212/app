@@ -14,7 +14,7 @@ function HeaderComponent() {
   };
 
   return (
-    <div>
+    <div className="fixed t-0 w-screen bg-white z-20">
       <div className="flex flex-col md:flex-row justify-between items-center mx-4 my-2">
         <div className="headerLeft align-middle w-screen mb-2 md:mb-0">
             <Link href="/">

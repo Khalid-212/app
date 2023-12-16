@@ -26,7 +26,7 @@ const Courses: React.FC = () => {
             </button>
           </div>
         </div>
-        <div className="w-5/12">
+        <div className="Coursecard w-5/12">
           <div className="course-card mb-6 p-6 border rounded-md">
             <div className="font-bold text-2xl mb-2">Advanced Course</div>
             <p>
