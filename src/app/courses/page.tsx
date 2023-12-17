@@ -7,6 +7,9 @@ const Courses: React.FC = () => {
   return (
     <div>
       <HeaderComponent />
+      <br />
+      <br />
+      <br />
       <section className="w-10/12 m-auto mt-20">
         <div className="font-bold text-4xl">Courses</div>
         <p className="mt-4">
@@ -39,6 +42,7 @@ const Courses: React.FC = () => {
           </div>
         </div>
       </section>
+      <br />
       <Footer />
     </div>
   );

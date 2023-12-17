@@ -72,7 +72,7 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col justify-center mx-4 mt-4 md:w-11/12 md:m-auto border-black">
-        <h1 className="text-xl md:text-4xl font-bold text-center md:w-7/12 mb-4">
+        <h1 className="text-xl m-auto mt-10 md:text-4xl font-bold text-center md:w-7/12 mb-4">
           Durable and long-lasting epoxy resin art pieces for your home
         </h1>
         <div className="properties flex flex-col md:flex-row m-4 md:justify-around">

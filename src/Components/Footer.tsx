@@ -9,7 +9,7 @@ import Link from "next/link";
 function Footer() {
   return (
     <div>
-      <div className="flex items-center mt-20 text-sm gap-3 justify-between mx-4 h-10 border-t-2 border-gray-500">
+      <div className="flex bottom-0 items-center mt-20 text-sm gap-3 justify-between mx-4 h-10 border-t-2 border-gray-500">
         <div className="ml-5">
           @2021 Sumu Resin Art
           {/* | All Rights Reserved Privacy Policy | Terms of Use */}

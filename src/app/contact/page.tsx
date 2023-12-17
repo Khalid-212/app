@@ -11,6 +11,8 @@ const Contact = () => {
   return (
     <div>
       <HeaderComponent />
+      <br />
+      <br />
       <section className="w-10/12 m-auto mt-20">
         <div className="font-bold text-4xl">Contact Us</div>
         <p className="mt-4">

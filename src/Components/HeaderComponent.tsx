@@ -14,11 +14,11 @@ function HeaderComponent() {
   };
 
   return (
-    <div className="fixed t-0 w-screen bg-white z-20">
+    <div className="fixed top-0 t-0 w-screen bg-white z-20">
       <div className="flex flex-col md:flex-row justify-between items-center mx-4 my-2">
         <div className="headerLeft align-middle w-screen mb-2 md:mb-0">
           <Link href="/">
-            <div className="logo">
+            <div className="logo lg:ml-20">
               <Image src={logo} alt="logo" width={100} height={100} />
             </div>
           </Link>
@@ -35,7 +35,7 @@ function HeaderComponent() {
 
           {/* Navigation links */}
           <div
-            className={`navs md:flex flex-col md:flex-row md:gap-4 items-center ${
+            className={`navs lg:mr-20 md:flex flex-col md:flex-row md:gap-4 items-center ${
               isNavOpen ? "block" : "hidden"
             }`}
           >
