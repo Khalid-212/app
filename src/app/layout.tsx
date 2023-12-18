@@ -5,8 +5,9 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sumu resin art",
-  description: "resin art comapny in Ethiopia",
+  title: "Sumu resin art epoxy resin art maker in Ethiopia",
+  description:
+    "Our Epoxy resin art products are meticulously crafted to bring out the uniqueness and quality that will captivate your senses.",
 };
 
 export default function RootLayout({

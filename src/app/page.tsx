@@ -12,8 +12,15 @@ import c8 from "../../public/assets/c8.jpg";
 import badge from "../../public/assets/badge.png";
 import art from "../../public/assets/arts.png";
 import Link from "next/link";
+import { Metadata } from "next";
+import { promises } from "dns";
 
 
+export const metadata: Metadata = {
+  title: "Sumu resin art epoxy resin art maker in Ethiopia",
+  description:
+    "Our Epoxy resin art products are meticulously crafted to bring out the uniqueness and quality that will captivate your senses.",
+};
 export default function Home() {
   return (
     <div>

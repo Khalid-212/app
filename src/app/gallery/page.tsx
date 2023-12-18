@@ -4,8 +4,17 @@ import ImageCard from "@/Components/ImageCard";
 import React from "react";
 import Footer from "@/Components/Footer";
 import images from "../../data/images";
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Sumu epoxy resin art maker in Ethiopia Photos",
+  description:
+    "Here are pictures of our Epoxy resin art products are meticulously crafted to bring out the uniqueness and quality that will captivate your senses.",
+};
 
 const Page = () => {
+  
   return (
     <div>
       <HeaderComponent />

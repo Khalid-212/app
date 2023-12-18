@@ -2,6 +2,14 @@
 import HeaderComponent from "@/Components/HeaderComponent";
 import Footer from "@/Components/Footer";
 import React from "react";
+import { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: "Sumu epoxy resin art courses",
+  description:
+    "sumu resin art courses - Choose from our selection of courses to enhance your skills.",
+};
 
 const Courses: React.FC = () => {
   return (

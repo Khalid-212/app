@@ -6,6 +6,13 @@ import location from "../../../public/assets/location.png";
 import phone from "../../../public/assets/phone.png";
 import email from "../../../public/assets/email.png";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Sumu epoxy resin art maker in Ethiopia contact us",
+  description:
+    "sumu resin art phone number - Have questions or inquiries? Reach out to us using the form below or contact us directly.",
+};
 
 const Contact = () => {
   return (
