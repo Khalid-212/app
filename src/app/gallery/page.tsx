@@ -6,13 +6,12 @@ import Footer from "@/Components/Footer";
 import images from "../../data/images";
 
 const Page = () => {
-  
   return (
     <div>
       <HeaderComponent />
-<br />
-<br />
-<br />
+      <br />
+      <br />
+      <br />
       <h1 className="text-3xl font-bold text-center mt-16 mb-8">
         Some of Our Works
       </h1>

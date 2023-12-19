@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .banner{
-  background-image: url(../../public/assets//banner.jpg);
+  background-image: url(../../public/assets//banner.webp);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;

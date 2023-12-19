@@ -4,7 +4,7 @@ import c3 from "../../public/assets/c3.jpeg";
 import c4 from "../../public/assets/c4.jpeg";
 import c5 from "../../public/assets/c5.jpeg";
 import c6 from "../../public/assets/c6.jpeg";
-import c7 from "../../public/assets/c7.jpg";
+import c7 from "../../public/assets/c7.png";
 import c8 from "../../public/assets/c8.jpg";
 
 
