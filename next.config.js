@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/zohoverify/verifyforzoho.html",
-        destination: "/html/verifyforzoho.html",
+        destination: "/zohoverify/verifyforzoho.html",
       },
     ];
   },
